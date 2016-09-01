@@ -1,0 +1,52 @@
+{
+    "name": "misfist/portfolio",
+    "description": "WordPress packages for misfist portfolio site.",
+    "type": "wordpress-project",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Misfist",
+            "email": "pea@misfist.com"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "misfist/portfolio",
+                "version": "master",
+                "type": "wordpress-theme",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/misfist/portfolio-theme/archive/master.zip"
+                },
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/misfist/portfolio-theme.git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/codepress-admin-columns": "2.5.6.3",
+        "wpackagist-plugin/admin-post-navigation": "2.0",
+        "wpackagist-plugin/beautiful-taxonomy-filters": "1.2.9",
+        "wpackagist-plugin/caldera-forms": "1.4.1",
+        "wpackagist-plugin/intuitive-custom-post-order": "3.0.7",
+        "wpackagist-plugin/jetpack": "4.2.2",
+        "wpackagist-plugin/post-type-switcher": "2.0.1",
+        "wpackagist-plugin/search-filter": "1.2.9",
+        "wpackagist-plugin/post-type-archive-links": "1.3.1",
+        "wpackagist-theme/tar": "0.1.6",
+        "misfist/portfolio": "dev-master"
+    },
+    "require-dev": {
+        "wpackagist-plugin/wpsite-show-ids": "1.1.1",
+        "wpackagist-plugin/which-template": "4.0"
+    }
+}
